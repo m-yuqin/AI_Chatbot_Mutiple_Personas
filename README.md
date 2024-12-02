@@ -1,5 +1,5 @@
 This code demonstrates how to create a simple web application that links to 3 AI chatbots with different personas. Each chatbot is calling the gemini SDK.
-You need to update .env file in server folder to include your Gemini API key.
+<br>You need to update .env file in server folder to include your Gemini API key.
 
 
 ![image](https://github.com/user-attachments/assets/855cf12b-4b2d-4020-a0b7-bd0a3a2e48b4)
