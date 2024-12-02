@@ -1,0 +1,47 @@
+.main-page {
+  display: flex;
+  flex-wrap: wrap; /* Allow cards to wrap to the next line */
+  justify-content: space-around; /* Distribute cards evenly */
+}
+
+.character-card {
+  width: calc(20% - 20px);
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.character-image {
+  width: 150px;
+  height: 150px;
+}
+
+.doraemon-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; /* Add space between image and button */
+    width:200px;
+    border: 5px solid rgb(254, 254, 254);
+    cursor: pointer;
+  }
+
+  .doraemon-image {
+    width: 100%; /* Image takes full width of the card */
+    height: 200px;
+    cursor: pointer;
+  }
+  
+  .chat-button {
+    background-color: #4CAF50; /* Green color */
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none; /* Remove underline from link */
+    width: 100%;
+  }

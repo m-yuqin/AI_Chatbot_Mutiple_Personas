@@ -1,0 +1,139 @@
+.App {
+    text-align: center;
+  }
+
+
+  .doraemon-container {
+    margin-top: 50px;
+    margin-right: 200px;
+    width: 200px; 
+  }
+  
+  body {
+    background-color: black;
+    color: white; /* Optional: Set text color to white for contrast */
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .chat-header {
+    display: flex;
+    align-items: center; /* This line centers the text vertically */
+    justify-content: center; /* This line centers the text horizontally */
+    background-color: #333;
+    color: white;
+    height: 30px;
+    padding: 10px;
+    font-size: 10px; /* Reduced font size */
+    font-weight: bold;
+  }
+
+  .chat-content {
+    flex: 1; /* Allow the chat content to fill the remaining space */
+    display: flex;
+  }
+
+  /*
+  .chat-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px; 
+  }
+    */
+
+  .doraemon-image {
+    width: 200px; /* Image takes full width of the card */
+    height: 200px;
+  }
+  
+  /* Chat container */
+  .chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 500px; /* Adjust height as needed */
+    width: 400px; /* Adjust width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+    background-color: #362679; /* Black background */
+    color: white; /* White text color for general elements */
+    font-family: Arial, sans-serif; /* Choose your preferred font family */
+    border-radius: 5px; /* Rounded corners */
+    
+  }
+  
+  /* Chat messages area */
+  .chat-messages {
+    flex: 1; /* Takes up all available space */
+    overflow-y: scroll; /* Enables scrolling for long conversations */
+    padding: 16px; /* Padding for inner elements */
+  }
+  
+  /* Individual message */
+  .message {
+    padding: 10px; /* Padding for content */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 5px; /* Spacing between messages */
+    display: flex;
+    align-items: center; /* Vertically align text within the message */
+  }
+  
+  .message-prompt {
+    background-color: #3399ff; /* Light blue background for user messages */
+    text-align: right; /* Align user messages to the right */
+    color: white; /* White text for user messages */
+    padding: 12px 16px; /* Adjust padding if needed */
+    border-top-right-radius: 0px; /* Remove top right corner for a bubble effect */
+  }
+  
+  .message-response {
+    background-color: #b7cf9e; /* Light green background for bot messages */
+    text-align: left; /* Align bot messages to the left */
+    color: black; /* Black text for bot messages */
+    padding: 12px 16px; /* Adjust padding if needed */
+    border-top-left-radius: 0px; /* Remove top left corner for a bubble effect */
+  }
+  
+  /* Input field and submit button */
+  form {
+    display: flex;
+  }
+  
+  textarea {
+    flex: 1; /* Input field takes up most of the space */
+    padding: 10px; /* Padding for text */
+    background-color: #333; /* Light gray background for input field */
+    color: white; /* White text for input field */
+    border: none; /* No border for the input field */
+    border-radius: 5px; /* Rounded corners */
+    margin-right: 5px; /* Spacing between input and button */
+    resize: none;
+    overflow: hidden;
+  }
+  
+  input[type="text"] {
+    flex: 1; /* Input field takes up most of the space */
+    padding: 10px; /* Padding for text */
+    background-color: #333; /* Light gray background for input field */
+    color: white; /* White text for input field */
+    border: none; /* No border for the input field */
+    border-radius: 5px; /* Rounded corners */
+    margin-right: 5px; /* Spacing between input and button */
+  }
+  
+  .send-button {
+    padding: 10px 16px; /* Padding for button text */
+    background-color: #2bb055; /* Blue background for submit button */
+    color: white; /* White text for submit button */
+    border: none; /* No border for the button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Indicate clickable behavior */
+  }
+  
+  .send-button.active {
+    background-color: #9aefb5; /* Adjust to your desired color */
+  }

@@ -1,0 +1,5 @@
+Open the code in Visual Studio and run the following commands. Then open the localhost webpage to see the results
+
+google-gemini-nodejs\server> npm run dev
+google-gemini-nodejs\client> npm start  
+
